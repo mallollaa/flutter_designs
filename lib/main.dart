@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_designs/pages/buttons_page.dart';
+import 'package:flutter_designs/pages/list_views_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MybouttonsPage(),
+      home: const MyListViewPage(),
     );
   }
 }
